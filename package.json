@@ -1,0 +1,36 @@
+{
+  "name": "antigravity-figma-mcp",
+  "version": "1.0.0",
+  "description": "Antigravity IDE x Figma Remote MCP Adapter with native canvas write capability and one-click browser auth",
+  "main": "dist/index.js",
+  "bin": {
+    "antigravity-figma-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "node src/index.js",
+    "build": "node scripts/build.js",
+    "test": "node tests/test_production.js"
+  },
+  "keywords": [
+    "mcp",
+    "figma",
+    "antigravity",
+    "model-context-protocol",
+    "canvas-mutation",
+    "remote-mcp"
+  ],
+  "author": "Gawasna (https://github.com/Gawasna)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gawasna/figma-antigravity-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gawasna/figma-antigravity-mcp/issues"
+  },
+  "homepage": "https://github.com/Gawasna/figma-antigravity-mcp#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Runtime & Auth Tokens (CRITICAL SECURITY)
+tokens.json
+*.token
+*.pem
+*.key
+.env
+.env.*
+
+# Logs & Traffic Dumps
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Internal research, scratch, prototypes & docs
+research/
+prototype/
+scratch/
+docs/
+tests/scratch/
+tests/test_server_v2.js
+tests/test_live_mutation.js
+tests/test_write_capabilities.js
+
+# Internal tracking
+TRACE.md
+
+# OS specific
+.DS_Store
+Thumbs.db
